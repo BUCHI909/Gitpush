@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+body{
+    /* background-color: #0b5951; */
+    color: #333;
+}
+.conduct{
+    background-color: #fff;
+    /* max-width: 1100px; */
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 12px;
+    border: none;
+    
+}
+header{
+    /* text-align: center; */
+    margin-bottom: 30px;
+}
+.logo{
+    color: #009688;
+    font-weight: bold;
+}
+.steps{
+    display: flex;
+    /* justify-content: center; */
+    gap: 100px;
+    margin-top: 20px 2;
+}
+.steps span{
+    /* border: thin solid red; */
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #e0e0e0;
+    color: #555;
+    cursor: pointer;
+}
+.steps span.active{
+    /* background-color: #009688; */
+    color: #fff;
+}
+
+.content h3{
+    margin-bottom: 10px;
+}
+.content input{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0 30px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+.cards{
+    display: flex;
+   justify-content: center;
+    gap: 20px;
+    /* border: thin solid red; */
+    margin-bottom: 20px;
+}
+.card{
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fafafa;
+    box-shadow: 0 1px 9px rgba(red, green, blue, alpha);
+    flex-wrap: wrap;
+}
+.card img{
+    width: 100%;
+    height: 200px;
+
+    object-fit: cover;
+}
+.card-info{
+    padding: 15px;
+}
+.card-info h3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 19px;
+}
+.location{
+    font-size: 16px;
+    color: #757575;
+    margin: 5px 0;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    /* text-decoration: none; */
+}
+button{
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    /* text-decoration: none; */
+    cursor: pointer;
+}
+button .details{
+    background-color: white;
+    color: #00796b;
+}
+.Select{
+    background-color: #009688;
+    color: white;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.details a{
+    color: #009688;
+}
+nav img{
+    border: thin solid green;
+    width: 50px;
+    height: 50x;
+    padding: 8px;
+    border-radius: 30px;
+    /* background-color: rgb(121, 249, 246); */
+    position: relative;
+    top: 20px;
+}
+ nav  span:hover{
+    background-color: #009688;
+    color: white
+ }
+ .card img:hover{
+    cursor: pointer;
+    transform: scale(1.4);
+ }
+ .card:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+    color: #009688;
+ }
+ .location img{
+    height: 20px;
+    width: 20px;
+}
+.location{
+    display: flex;
+    gap: 7px;
+    margin-bottom: 15px;
+}
+footer{
+    width: 100%;
+    background-color: #197c70;
+    padding-bottom: 8px;
+    /* margin-top: - 20px; */
+    /* place-content: center; */
+    height: 50px;
+    justify-content: center;
+    
+    align-items: center;
+    color: white;
+    
+}
+
+footer, ul {
+    display: flex;
+    gap: 200px;
+
+    
+}
+.foot{
+    color: greenyellow;
+}
+.down{
+    margin-top: 20px;
+}
+
+
+@media (max-width: 900px) {
+    .conduct .content{
+        flex-direction: column; 
+    }
+    .content .card{
+        width: 80%;
+    }
+    
+    
+}
+
